@@ -1,0 +1,15 @@
+{
+	"name":"PPzuche GA tools",
+	"manifest_version": 2,
+	"version":"0.0.2",
+	"description":"ppzuche ga debugger",
+	"permissions": [ "tabs", "webRequest" , "http://*.ppzuche.com/","http://*.google-analytics.com/"],
+	"background": {
+		"scripts":["index.js"]
+	},
+	"page_action": {  
+	    "default_icon": "icon.png" ,
+	    "default_title": "ppzuche ga测试工具",
+	    "default_popup": "pop.html"
+	}
+}

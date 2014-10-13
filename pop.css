@@ -1,0 +1,54 @@
+body{
+	min-width: 600px;
+	font-family: "微软雅黑";
+	color:#666;
+}
+
+h4{
+	background: #ccc;
+	border-radius: 5px;
+	line-height: 30px;
+	text-indent: 20px;
+	color: #333;
+}
+
+.green{
+	color: green;
+}
+
+strong{
+	color: red;
+	margin-left: 20px;
+}
+
+p{
+	text-align: center;
+}
+
+li{
+	max-width: 100%;
+	word-break: break-all;
+	margin-bottom: 1em;
+	color: #f60;
+}
+
+table{
+	width: 100%;
+	text-align: left;
+}
+
+table td{
+	color:#666;
+}
+
+a{
+	display:block;
+	text-align: right;
+	color: #999;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+a:after{
+	clear: both;
+}
